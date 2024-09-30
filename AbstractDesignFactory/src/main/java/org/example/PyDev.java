@@ -1,0 +1,14 @@
+package org.example;
+
+public class PyDev implements Employee{
+    @Override
+    public int salary() {
+        return 50000;
+    }
+
+    @Override
+    public String name() {
+        System.out.println("pyDevleoper");
+        return "PyDev";
+    }
+}
